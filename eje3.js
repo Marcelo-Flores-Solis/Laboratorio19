@@ -19,7 +19,7 @@ function obtenerNombrePokemon() {
         })
         .then(data => {
             
-            console.log(`%c El nombre del Pokemon con ID ${id} es: ${data.name}`);
+            console.log(`El nombre del Pokemon con ID ${id} es: ${data.name}`);
         })
         .catch(error => {
             
