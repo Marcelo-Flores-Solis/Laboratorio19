@@ -5,7 +5,7 @@ function mostrarSpriteCharizard() {
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      console.log("URL del sprite front_default de Charizard:", data.sprites.front_default);
+      console.log("URL del sprite de Charizard:", data.sprites.front_default);
     })
     .catch(error => {
       console.error("Error:", error);
