@@ -1,3 +1,4 @@
+// Paso 7
 function listarPrimeros20Pokemon() {
   const url = "https://pokeapi.co/api/v2/pokemon?limit=20";
 
