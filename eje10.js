@@ -31,7 +31,7 @@ async function cargarPokemones() {
     try {
       const response = await fetch(url);
       if (!response.ok) {
-        throw new Error(`Error al obtener el Pokémon ${i}`);
+        throw new Error(`Error al obtener el Pokemon ${i}`);
       }
       const data = await response.json();
       pokemones.push(data);      
