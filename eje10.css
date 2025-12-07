@@ -1,0 +1,18 @@
+.contenedor-pokemones {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+.tarjeta-pokemon {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 0.5rem;
+      width: 150px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+.tarjeta-pokemon img {
+      width: 96px;
+      height: 96px;
+    }
+  
